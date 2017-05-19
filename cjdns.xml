@@ -47,7 +47,19 @@
       </command>
     </implementation>
   </group>
-  <implementation arch="Linux-x86_64" id="sha1new=4c2083529be34c3a08f9952aa65b44e9f28fd872" released="2017-05-19" version="19.1"><command name="run" path="./cjdroute"/>
-      <manifest-digest sha256new="5BEVW4HF3K7HHKGDP64Z463DKPD7I5MZ52LM7Z4CPZS44CEFTWCQ"/>
-      <archive extract="cjdns-linux-x86_64-19.1" href="./cjdns-linux-x86_64-19.1.tar.bz2" size="1224223"/></implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=d00ce00c43e5ec13e16b6ce2659d412f54bb9e37" released="2017-05-19" version="19.1"><command name="run" path="./cjdroute"/>
+      <manifest-digest sha256new="FEOVMW5HSUYNQAGUD5VSJ3X3A3GPVXSYBSU6TN5ZEFPBUCF54FPQ"/>
+      <archive extract="cjdns-linux-x86_64-19.1" href="./cjdns-linux-x86_64-19.1.tar.bz2" size="1224551"/></implementation>
 </interface>
+<!-- Base64 Signature
+‰YyG
+-->
+<!-- Base64 Signature
+Õ`Tn¡m9ç½ÿY[î@ñÓ‰Mh‚J¤âèÌ¬a’º#ÕÉÕ˜“zÀ6ÚÍTz.¢¬åËÂ:[hÉ¿{}Âw+VN
+-->
+<!-- Base64 Signature
+dŠ—YOj¬1B—04í½:²i~gÆ”ßf:*()Ãú²Âä,ŽõéZ·ï‚nm{ÐùõN^È/ùß6²ZÍ[öF®Ÿ‰ÏZô«{>ªßRZV
+-->
+<!-- Base64 Signature
+‹ç.2Pþ- þWMW‚Á3¬eîÚ˜U¹y*Sˆò×œ0"[þÄ%qŒV@UŽëø”^?'§úÁOµxŒèÚØ÷¼8­ÒzŽ\ÔPqóhÞ.0iWn–¡uÍIÎR‰$Ï½´h™%Ž^
+-->
