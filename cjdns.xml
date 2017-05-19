@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+  <name>cjdns</name>
+  <summary>cures all ills</summary>
+  <description>
+    A longer, multi-line description of the behaviour of the
+    program goes here. State clearly what the program is for
+    (clearly enough that people who don't want it will
+    realise too).
+
+    Use a blank line to separate paragraphs.
+  </description>
+
+  <!-- Optionally, uncomment this to specify the program's homepage: -->
+  <!-- <homepage>http://site/prog</homepage> -->
+
+  <!-- Optionally, uncomment this to specify an icon: -->
+  <!-- <icon href='http://site/icon.png' type='image/png'/> -->
+
+  <!-- Optionally, uncomment this to give the address of
+       the signed master interface: -->
+  <!-- <feed-for interface='http://site/interface'/> -->
+
+  <!-- Set 'main' to the relative path of your default
+        executable within the implementation's directory.
+	E.g.: "myprog" or "bin/myprog" -->
+  <group main="cjdns">
+    <!-- List any libraries your program needs here -->
+    <!--
+    <requires interface="http://site/library">
+      <environment insert="python" name="PYTHONPATH"/>
+    </requires>
+    -->
+
+    <!-- List all implementations here.
+         For local interfaces, '.' is a relative path from this
+	 interface file to the directory containing the program.
+	 Usually, you can just leave it as '.'.
+    -->
+    <implementation arch="*-src" compile:dup-src="true" id="./cjdns" version="0">
+      <command name="compile" shell-command="./do &amp;&amp; cp cjdroute $DISTDIR">
+        <compile:implementation>
+          <command name="run" path="./cjdroute">
+          </command>
+      	</compile:implementation>
+      </command>
+    </implementation>
+  </group>
+  <implementation arch="Linux-x86_64" id="sha1new=4c2083529be34c3a08f9952aa65b44e9f28fd872" released="2017-05-19" version="19.1"><command name="run" path="./cjdroute"/>
+      <manifest-digest sha256new="5BEVW4HF3K7HHKGDP64Z463DKPD7I5MZ52LM7Z4CPZS44CEFTWCQ"/>
+      <archive extract="cjdns-linux-x86_64-19.1" href="./cjdns-linux-x86_64-19.1.tar.bz2" size="1224223"/></implementation>
+</interface>
