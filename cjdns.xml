@@ -47,10 +47,10 @@
       </command>
     </implementation>
   </group>
-  <implementation arch="Linux-x86_64" id="sha1new=8a195d82c571f6e5283f24040d5aff7885f20b33" released="2017-05-24" version="19.1"><command name="run" path="./cjdroute"/>
-      <manifest-digest sha256new="BZN6ZFLC5UO2XTMOER46MUXKUAIP5QWIJRROAFIE4OJ5FNGGFHHA"/>
-      <archive extract="cjdns-linux-x86_64-19.1" href="./cjdns-linux-x86_64-19.1.tar.bz2" size="1224423"/></implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=b972ecadd0b0491abdeea19ac0c6c87876eb2124" released="2017-05-24" version="19.1"><command name="run" path="./cjdroute"/>
+      <manifest-digest sha256new="ZI3AQLS4B7YRZTAMKINK7OJKH7Z5VZ7YKD5RUBXQQHQQFK5SGB3Q"/>
+      <archive extract="cjdns-linux-x86_64-19.1" href="http://mildred.github.io/0feed-cjdns/cjdns-linux-x86_64-19.1.tar.bz2" size="1224394"/></implementation>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJZJfqPAAoJENVgVG6hbR05iIUIAI426digcKMXSxcVuKF8qkaKxD1g/WeR+bWGTeW9pZupwg/ttR0DDWpKyBKRfNKurHFm0BF8ScFubvE1zt0IIRWIwebSr8uuSah+OtH+BFTPqC8nsmhvt6SHy+XEBpaX999lumntjQyygPlM2+lw2glZgCv1ZPk7rfCcqVGGzNnrcK80kD/FO+zmsql+yLAfot5pxFa3pIZj/nCTvHmVCZthwy5k0u/eKedx0zuW+gUJuSfAR0Eya9Vi6O1HVuz0ZK7N9ttRndZ8F4p2EQqOO8xmQGEL91S9g4SI0M6lp4DPkG8umbpR9DHT1HWyD5YuYJg2AwqglU90kImgljvbYu4=
+iQEcBAABAgAGBQJZJgo0AAoJENVgVG6hbR05HtsH/iUfl5sYxyuPIbYBcFaGIlKj62i4HZkkP4FR3f1JIWQKYoEIr2b8Sg8udQHPYz/r6fPnITLXSe/tE7jD665Ft4ioAVNPmp78qw1WjT6wbXd67EEDC1ZIQ5NM5CogQuinHlUOmZ34dBZXf6avZQodjMk8kAZi+mENWnX6IhCDwb0T+JubEDSZEzECrSrZu13tP83JBqaSupu0MlZACslXGZTvkhgDi17t4RpGYSI66Q/TCOWjFlnPCDxpcK/YH/ompPzXbseMIcgrha9mOZDNRCh+YNU4x4EA6y/7vNWnNsG/ka1w7iFBkhHIj0+/BrAHMaFVEXLozLe8rApBvXdgdQM=
 -->
