@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+<interface uri="http://mildred.github.io/0feed-cjdns/cjdns.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>cjdns</name>
   <summary>cures all ills</summary>
   <description>
@@ -47,10 +47,10 @@
       </command>
     </implementation>
   </group>
-  <implementation arch="Linux-x86_64" id="sha1new=651661ae661ded2167143b829c311db900f5115d" released="2017-05-19" version="19.1"><command name="run" path="./cjdroute"/>
-      <manifest-digest sha256new="TK4PZ4XKLUTR6ZSVD44JUZDFEWO7K75YFXCNJKJC3WP5U55UN2SQ"/>
-      <archive extract="cjdns-linux-x86_64-19.1" href="./cjdns-linux-x86_64-19.1.tar.bz2" size="1224678"/></implementation>
+  <implementation arch="Linux-x86_64" id="sha1new=8a195d82c571f6e5283f24040d5aff7885f20b33" released="2017-05-24" version="19.1"><command name="run" path="./cjdroute"/>
+      <manifest-digest sha256new="BZN6ZFLC5UO2XTMOER46MUXKUAIP5QWIJRROAFIE4OJ5FNGGFHHA"/>
+      <archive extract="cjdns-linux-x86_64-19.1" href="./cjdns-linux-x86_64-19.1.tar.bz2" size="1224423"/></implementation>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJZH3/KAAoJENVgVG6hbR05wrQH/AkhqDBzVukov5Nx4AwBgm+ms+LWgGyuRTOFdI3PWwKtlQ4LoXio78kQyfX2XLKbhRNdWeHCFOk0N5HOb+Uwa7Oetsa6ltb1dXE5oevIYltDNTDOB813X4ijx3ZzmJqpisRndUeykGdyP/sp3bjmkvZi8YIpwYX7R/eIKycbqkPoEFD1nt76sg7oCY7ZJKde6Pmlophfwio4Uj5Osu7jD+cLi+2fQ5VMBS9L7DaUreFXEz6BsofBWB2GDFnkZmFBI6yQ5RMRphdrWZxbtllJojcfW3HOCvWE6mrYSDnbQZJz003CEZy8AOHvdfIZj18NQpcjDeaCZyfqBY2yyguLa94=
+iQEcBAABAgAGBQJZJfqPAAoJENVgVG6hbR05iIUIAI426digcKMXSxcVuKF8qkaKxD1g/WeR+bWGTeW9pZupwg/ttR0DDWpKyBKRfNKurHFm0BF8ScFubvE1zt0IIRWIwebSr8uuSah+OtH+BFTPqC8nsmhvt6SHy+XEBpaX999lumntjQyygPlM2+lw2glZgCv1ZPk7rfCcqVGGzNnrcK80kD/FO+zmsql+yLAfot5pxFa3pIZj/nCTvHmVCZthwy5k0u/eKedx0zuW+gUJuSfAR0Eya9Vi6O1HVuz0ZK7N9ttRndZ8F4p2EQqOO8xmQGEL91S9g4SI0M6lp4DPkG8umbpR9DHT1HWyD5YuYJg2AwqglU90kImgljvbYu4=
 -->
